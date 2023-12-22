@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online kinoteatr uzmovi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="top-navbar navbar navbar-expand-lg">
+        <div class="navbar-1 container-fluid container">
+          <div class="navbar-left">
+            <a class="navbar-brand" href="#">
+                <img src="http://cdn.uzmovi.com/v1/images/logo.gif">
+            </a>
+          </div>
+
+          <div class="navbar-right">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          
+            <div class="linklar collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">BOSH SAHIFA</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">KINOLAR</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SERIALLAR
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">JANR</a></li>
+                            <li><a class="dropdown-item" href="#">YIL</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">JANR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">YIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MAMLAKAT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">KINO YANGILIKLARI</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+    
+    <div class="headerni-osti">
+        <a href="https://t.me/murodovich_n1">
+            <div class="tg-channel-link container text-center py-2">
+                <img src="https://cdn.gogeticon.net/files/1195162/4c2e72a45ea9e76d7b2793a7200f63b3.png" width="30px">
+                Bizga Telegramda qo'shiling!
+            </div>
+        </a>
+
+        <div class="container">
+            
+            <div class="search-bar input-group mb-3">
+                <input type="text" class="form-control" placeholder="Film izlash..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+                </span>
+            </div>
+
+            <div class="icon-buttonlar d-flex justify-content-end">
+                <a class="btn" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                        <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
+                    </svg>
+                </a>
+                
+                <a class="btn" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg>
+                </a>
+                
+                <a class="btn" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
+                    </svg>
+                </a>
+                
+                <a class="btn" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="film-carousel">
+        <p class="container">PREMYERA</p>
+
+        <div id="carouselExampleCaptions" class="container carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        <a href="https://youtu.be/vEWKI0UDKv0">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                
+                <img src="https://i.mycdn.me/image?id=865511708099&t=50&plc=WEB&tkn=*KD0ky-4Em-WuwKAiBvsbmz_d4Co&fn=external_8" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pusu</h5>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="https://i.mycdn.me/image?id=865511708099&t=50&plc=WEB&tkn=*KD0ky-4Em-WuwKAiBvsbmz_d4Co&fn=external_8" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pusu</h5>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="https://i.mycdn.me/image?id=865511708099&t=50&plc=WEB&tkn=*KD0ky-4Em-WuwKAiBvsbmz_d4Co&fn=external_8" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pusu</h5>
+                </div>
+              </div>
+            </div>
+        </a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="prosta-rang">
+        <div class="row container main-content">       
+            <div class="col-8 film-list d-flex align-content-around flex-wrap">
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="http://images.uzmovi.com/2023-12-17/d955e9184b45926657398c86cad51717.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text" >Parijdagi Qotillik Sirli <br> Qotillik 2 PREMYERA</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+                
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <p class="mx-2">NEW</p>
+                    <img src="https://www.movieposters.com/cdn/shop/products/b88f1213c01b76e6eb509b28deaf97c4_cf8616aa-04be-4ef0-800d-27d71437a89c_480x.progressive.jpg?v=1573595127" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Titanic x/f</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 tasodifiy-filmlar-listi">
+                
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-4">
+                        <img src="data:image/jpeg;base64,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" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">PUSU</p>
+                        <div>
+                            <button class="like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                                </svg>
+                            </button>
+                            <button>+999</button>
+                            <button class="dislike">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down" viewBox="0 0 16 16">
+                                    <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-4">
+                        <img src="http://images.uzmovi.com/ii/1596705242/25901706/31268082.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Zulmat Qarida</p>
+                        <div>
+                            <button class="like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                                </svg>
+                            </button>
+                            <button>324</button>
+                            <button class="dislike">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down" viewBox="0 0 16 16">
+                                    <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-4">
+                        <img src="http://images.uzmovi.com/ii/1559035310/67e0f3d0/26687328.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">UKUN</p>
+                        <div>
+                            <button class="like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                                </svg>
+                            </button>
+                            <button>+999</button>
+                            <button class="dislike">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down" viewBox="0 0 16 16">
+                                    <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-4">
+                        <img src="http://images.uzmovi.com/2022-09-24/0838cdf4d5659af6935e2fe29ec08fdb.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Panda</p>
+                        <div>
+                            <button class="like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                                </svg>
+                            </button>
+                            <button>+999</button>
+                            <button class="dislike">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down" viewBox="0 0 16 16">
+                                    <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-4">
+                        <img src="http://images.uzmovi.com/ii/1632278840/0941d078/35955593.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Quvur Yoli</p>
+                        <div>
+                            <button class="like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                                </svg>
+                            </button>
+                            <button>+999</button>
+                            <button class="dislike">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down" viewBox="0 0 16 16">
+                                    <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-4">
+                        <img src="http://images.uzmovi.com/ii/1564120301/5ec125e8/27337025.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Sukut Qasamyodi</p>
+                        <div>
+                            <button class="like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                                </svg>
+                            </button>
+                            <button>+999</button>
+                            <button class="dislike">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down" viewBox="0 0 16 16">
+                                    <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-4">
+                        <img src="http://images.uzmovi.com/2022-11-09/de56b67ec8d6b79f385c7f8bc4a9965a.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Western Front</p>
+                        <div>
+                            <button class="like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                                </svg>
+                            </button>
+                            <button>+999</button>
+                            <button class="dislike">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down" viewBox="0 0 16 16">
+                                    <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                    <div class="col-4">
+                        <img src="http://images.uzmovi.com/ii/1584807782/a74b2017/29954036.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Jumong</p>
+                        <div>
+                            <button class="like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                                </svg>
+                            </button>
+                            <button>+999</button>
+                            <button class="dislike">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-down" viewBox="0 0 16 16">
+                                    <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+   
+    
+</body>
+</html>
+
+<style>
+    .prosta-rang{
+        background-color: rgb(22,29,37) !important;
+    }
+    .body{
+        background-color: rgb(22,29,37) !important;
+    }
+
+    .tasodifiy-filmlar-listi .card{
+        background-color: transparent;
+        border: solid;
+        border-color: white !important;
+        color: white;
+    }
+
+    .tasodifiy-filmlar-listi .card svg{
+        color: white;
+    }
+
+    .tasodifiy-filmlar-listi .card .card-body{
+        margin-top: 35px;
+    }
+
+    .tasodifiy-filmlar-listi .card button{
+        background-color: rgb(29,35,44);
+        color: white;
+    }
+
+    .tasodifiy-filmlar-listi .card .like:hover{
+        background-color: green;
+    }
+
+    .tasodifiy-filmlar-listi .card .dislike:hover{
+        background-color: red;
+    }
+
+    .film-list .card{
+        background-color: rgb(29,35,44);
+    }
+
+     .card p{
+        color: white;
+    }
+
+    .film-list .card-body{
+        background-color: rgb(34,41,51);
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .film-list .card img{
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+
+    .film-list .card p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .linklar li a{
+        color: white;
+    }
+
+    .linklar li:hover{
+        background-color: yellow;
+        color: white !important;
+        height: 100%;
+    }
+
+    .navbar-1{
+        position: relative;
+    }
+
+    .navbar-left{
+        float: left !important;
+    }
+
+    .navbar-right{
+        float: right !important;
+    }
+
+    .top-navbar{
+        background-color: rgb(34,41,51);
+    }
+
+    .tg-channel-link{
+        background: rgb(56,156,233);
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tg-channel-link a{
+        text-decoration: none;
+    }
+
+    .tg-channel-link a:hover{
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .search-bar{
+        float: left;
+        width: 200px;
+    }
+    
+    .search-bar input{
+        background-color: rgb(34,41,51);
+
+    }
+
+    ::placeholder {
+        color: white !important;
+        opacity: 1; /* Firefox */
+    }
+
+    ::-ms-input-placeholder { /* Edge 12 -18 */
+        color: white !important;
+        opacity: 1;
+    }
+
+    .search-bar span{
+        background-color: rgb(34,41,51);
+        color: white;
+    }
+
+    .headerni-osti{
+        background-color: rgb(19,26,32);
+        padding: 20px;
+    }
+
+    .icon-buttonlar .btn{
+        margin: 5px;
+        background-color: rgb(34,41,51);
+    }
+
+    .icon-buttonlar a{
+        color: white;
+    }
+
+    .film-carousel{
+        padding: 20px;
+    }
+
+    .carousel{
+        margin: auto;
+        width: 100%;
+    }
+
+    .film-carousel{
+        background-color: rgb(46,41,63);
+    }
+
+    .film-carousel p{
+        color: white;
+    }
+
+    .main-content{
+        margin: auto;
+        background-color: rgb(19,26,32);
+    }
+
+    .main-content .card{
+        margin: 10px;
+    }
+
+    .footer-tepasi{
+        background-color: rgb(34,41,51);
+    }
+
+</style>
